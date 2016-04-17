@@ -37,3 +37,13 @@
 ehthumbs.db
 Thumbs.db
 *.*~
+
+# script generated files #
+##########################
+*.txt
+
+# unused libraries #
+###################
+lib/
+
+
