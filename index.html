@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example116-production</title>
+  
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-touch.js"></script>
+  <script src="js/script.js"></script>
+  
+
+  
+</head>
+<body ng-app="ngSwipeLeftExample">
+
+<h1>Swipe left &amp; right for images</h1>
+<p>If using a mouse, click and hold to the right of the image while dragging</p>
+  <div ng-show="!showActions" ng-swipe-left="showActions = true">
+        <img src="img/dog.jpg" width="200" height="200">
+</div>
+<div ng-show="showActions" ng-swipe-right="showActions = false">
+        <img src="img/cat.jpg" width="200" height="200">
+</div>
+</body>
+</html>
